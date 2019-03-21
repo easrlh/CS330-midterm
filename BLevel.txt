@@ -1,0 +1,45 @@
+/*
+Code to be syntax-checked for B-level Midterm project grade
+*/
+
+import java.io.*;
+import java.util.Random;
+//more than one import statement!
+
+class BLevel{
+
+    public static void main (String [] args){
+        //now we are in main
+        int x = 5;
+        x = x + 3;
+        String n = " ";
+        String stringtrue = "String" + n + "test";
+        System.out.println("It is true that string has 6 letters");
+        boolean t = false;
+
+        //additions from ALevel to start on ALevel code
+        Scanner sc = new Scanner(System.in);
+        String newString = sc.next();
+        int newInt = sc.nextInt();
+        //end of ALevel additions
+
+        while(x <= 20){
+          System.out.println("the number is" + x);
+          x = x + 1;
+        }
+
+        if (x < 10){
+            System.out.println("x<10");
+        }
+        else{
+            System.out.println("x>=10");
+        }
+
+        /*
+        If there are other things that you want to test,
+        here is a good place for them.
+        */
+
+    }
+
+}
